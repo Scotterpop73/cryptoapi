@@ -1,0 +1,9 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+pagination-controls{
+    display: flex;
+    justify-content: center;
+}

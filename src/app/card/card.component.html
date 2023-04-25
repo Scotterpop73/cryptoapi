@@ -1,0 +1,15 @@
+<div class="card mb-5">
+    <div class="card-image">
+      <figure class="image is-4by3">
+        <img [src]="imageUrl" alt="" />
+      </figure>
+    </div>
+    <div class="card-content">
+      <div class="media-content">
+        <p class="title is-4"> {{ title }} </p>
+        <p class="subtitle is-6">Current Price: {{ currentPrice | currency }} </p>
+        <p class="subtitle is-6">24hr Price Change: {{ priceChange | currency }} </p>
+      </div>
+    </div>
+</div>
+  
